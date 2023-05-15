@@ -1,0 +1,26 @@
+import styled from '@emotion/styled';
+
+export const Form = styled.form`
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+`;
+
+export const Input = styled.input`
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 160px;
+`;
+
+export const Button = styled.button`
+  padding: 4px 4px;
+  background-color: #007bff;
+  color: #fff;
+
+  border-radius: 50px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+`;
