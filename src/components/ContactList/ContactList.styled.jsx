@@ -16,11 +16,12 @@ export const Button = styled.button`
   padding: 4px 4px;
   background-color: #007bff;
   color: #fff;
-
+  margin-left: 10px;
   border-radius: 50px;
   cursor: pointer;
 
   &:hover {
-    background-color: #0056b3;
+    background-color: #e7ecf1;
+    color: #cc1a1adb;
   }
 `;
